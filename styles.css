@@ -1,0 +1,125 @@
+/* styles.css */
+/* Reset some default browser styles */
+body /*, h1, h2, ul, li, p */ {
+    background-color:whitesmoke;
+    margin: 0;
+    padding: 0;
+    opacity: 100%;
+    color :black;
+
+}
+
+.bodydiv
+{
+    /* Path to your background image */
+    /*background-image: url('background.jpg');
+    background-size: cover; /* Scale the image to cover the container */
+    background-position: center; /* Position the image at the center */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    height: 100vh; /* Adjust the height as needed */
+    /*color: #fff; /* Text color on top of the background 
+    text-align: center;
+    padding: 100px;*/
+    background-color: #fffffff8;
+    
+    
+}
+/* styles.css */
+
+/* Styling the header */
+header {
+    display: flex;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline grey;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    /*font-family: 'Times New Roman', Times, serif;*/
+    
+
+}
+.header1 {
+    padding-right: 800px;
+}
+
+/* Styling the navigation */
+nav ul{
+    color:black;
+    list-style-type: circle black  ;
+    display: flex;
+    background-color:black;
+    justify-content: right;
+    padding: 20px 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling the featured products section */
+.product {
+    display: flexs;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#dog {
+    width : 200px; /* Set the desired width */
+    height: auto; /* Maintain the aspect ratio */
+}
+/* styles.css */
+.container {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Horizontally distribute items */
+    padding: 20px;
+}
+.container2 {
+    display: flex;
+    align-items: center; /* Vertically align items */
+    justify-content: space-between; /* Horizontally distribute items */
+    padding: 20px;
+}
+
+
+.text {
+    flex: 1; /* Let the text div grow to fill available space */
+    padding-right: 20px;
+    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;*/
+    font-size: medium ;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    flex: 1; /* Let the text div grow to fill available space */
+    padding-left: 20px;
+    font-size: medium ;
+}
+.text {
+    flex: 1; /* Let the text div grow to fill available space */
+    padding-right: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: medium ;
+    padding-left: 10px;
+}
+
+
+.image img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
+.image2 img {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
+footer{
+    padding-top: 50px;
+}
